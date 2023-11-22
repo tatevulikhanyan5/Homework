@@ -10,4 +10,6 @@ class BaseTest:
     def First_page_title_check(self):
         self.Home.click_on_first_element()
 
+"""you don't have home page on your project"""
+
 
