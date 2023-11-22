@@ -22,3 +22,6 @@ class Header(Helpers):
     def assert_first_page(self,check_text="how-did-christmas-start"):
        actual_text=self.find(self.find_header,get_text=True)
        assert actual_text==check_text
+
+
+#first page should be located under pages folder, not under the lib
