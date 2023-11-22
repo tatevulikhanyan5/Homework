@@ -10,3 +10,5 @@ class Second(Helpers):
 
     def click_on_second_element(self):
         self.find_and_click(self.second_element)
+
+#move second_page.py under pages module
